@@ -1,0 +1,1 @@
+var mobileNoHoverState=function(){function o(){u=!0}function t(){u===!1?$(this).addClass(i):u=!1}function n(){$(this).removeClass(i)}function e(){r.on({touchstart:o,mouseover:t,mouseout:n})}var i="dropdown",r=$(".dropdown-element"),u=!1;return{init:e}}();mobileNoHoverState.init();
